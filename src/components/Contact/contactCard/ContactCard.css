@@ -1,0 +1,108 @@
+.contactCard__container {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    background-color: rgba(7, 7, 7, 0.9);
+    padding: 1.4rem;
+    color: white;
+    border-radius: 1rem;
+}
+
+
+
+.contactCard__icon {
+    padding: 2rem;
+    border-radius: 50rem;
+    background-color: rgba(200, 200, 200, 0.1);
+    margin-right: 3rem;
+}
+
+.contactIcon {
+    scale: 2;
+}
+
+.contactCard__title h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgba(132, 94, 194, 0.9);
+}
+
+
+.contactCard__title span {
+    font-size: 1.4rem;
+}
+
+.contact__subIcons {
+    margin-right: 2rem;
+    scale: 1.38;
+    cursor: pointer;
+}
+
+
+
+.contactCard__title a {
+    font-size: 1.8rem;
+    color: white;
+}
+
+@media only screen and (max-width : 600px) {
+    .contactCard__container {
+        padding: 1rem;
+    }
+
+    .contactCard__icon {
+        padding: 1.4rem;
+        border-radius: 100rem;
+        margin-right: 2rem;
+    }
+
+    .contactIcon {
+        scale: 1.6;
+    }
+
+    .contactCard__title h1 {
+        font-size: 2.2rem;
+    }
+
+
+    .contactCard__title span {
+        font-size: 1.2rem;
+    }
+
+    .contact__subIcons {
+        margin-right: 1.4rem;
+        scale: 1.4;
+    }
+
+}
+
+@media (min-width : 601px) and (max-width : 768px) {
+
+    .contactCard__container {
+        padding: 1.2rem;
+    }
+
+    .contactCard__icon {
+        padding: 1.6rem;
+        margin-right: 2.4rem;
+    }
+
+    .contactIcon {
+        scale: 1.8;
+    }
+
+    .contactCard__title h1 {
+        font-size: 2.5rem;
+    }
+
+
+    .contactCard__title span {
+        font-size: 1.3rem;
+    }
+
+    .contact__subIcons {
+        margin-right: 1.6rem;
+        scale: 1.4;
+    }
+
+}

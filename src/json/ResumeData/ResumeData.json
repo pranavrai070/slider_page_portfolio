@@ -1,0 +1,154 @@
+{
+    "education": [
+        {
+            "degree": "Intermediate",
+            "university": "Mukularanyam English School",
+            "location": "Varanasi,UP, India",
+            "graduation": "2017",
+            "gpa": "82%"
+        },
+        {
+            "degree": "B.Tech",
+            "university": "Harcourt Butler Technical University",
+            "location": "Kanpur, UP, India",
+            "graduation": "2018 - 2022",
+            "gpa": "65%"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "description": [
+                "Open AI API",
+                "JavaScript",
+                "Node.js",
+                "Express.js",
+                "React",
+                "React Native",
+                "Python",
+                "dJango",
+                "HTML5",
+                "CSS3",
+                "styled-components",
+                "TailwindCss",
+                "Sass" 
+            ]
+        },
+        {
+            "name": "Web Development Tools",
+            "description": [
+                "Git",
+                "npm",
+                "Visual Studio Code",
+                "Chrome DevTools",
+                "expo",
+                "Linux Terminal"
+            ]
+        },
+        {
+            "name": "API Integration",
+            "description": [
+                "Utilized APIs like OpenWeatherMap and TMDB for real-time data"
+            ]
+        },
+        {
+            "name": "State Management",
+            "description": [
+                "Redux, ReduxToolkit & Context API"
+            ]
+        },
+        {
+            "name": "Version Control",
+            "description": [
+                "Git for collaboration"
+            ]
+        },
+        {
+            "name": "Package Management",
+            "description": [
+                "npm for project setup"
+            ]
+        },
+        {
+            "name": "Debugging and Testing",
+            "description": [
+                "Used Chrome DevTools for testing"
+            ]
+        },
+        {
+            "name": "Responsive Design",
+            "description": [
+                "Ensured cross-device user experiences"
+            ]
+        },
+        {
+            "name": "UI Frameworks",
+            "description": [
+                "Familiar with Bootstrap TailwindCss Framer Motion Material UI Styled-Components & Sass"
+            ]
+        },
+        {
+            "name": "Backend Concepts",
+            "description": [
+                "Solid understanding of Node.js and Express"
+            ]
+        },
+        {
+            "name": "Problem-Solving",
+            "description": [
+                "Strong analytical and creative problem-solving"
+            ]
+        }
+    ],
+    "projects": [
+        {
+          "name": "Threads",
+          "description": "Using Next.js, MongoDB, I created a threads app clone that skyrocketed to 100 million sign-ups in less than 5 days, and dethroned giants like Twitter, ChatGPT, and TikTok to become the fastest-growing app ever"
+        },
+        {
+          "name": "Car Showcase",
+          "description": "This is a simple landing website made using Next.js and Tailwind CSS for showing Cars. This is a fully responsive website"
+        },
+        {
+          "name": "GraphQL",
+          "description": "With featured and recent posts, categories, full markdown articles, author information, comments, and much more, this is a fully responsive Blog App. What's best of all is that you or each and every member of an organization can manage the blog from a dedicated Content Management System."
+        },
+        {
+          "name": "Nike",
+          "description": "This is a fully responsive and simple Nike Landing Page containing the latest design patterns for E-commerce applications"
+        },
+        {
+          "name": "Pinterest",
+          "description": "With all advanced Social Media features, such as Google Authentication, create, edit, delete and save posts, like and comment on other people's posts, search and filter images, and much more, I have created a combination of Pinterest and Instagram and I call it Pinstagram"
+        },
+        {
+          "name": "Task Manager",
+          "description": "A MERN stack Task Manager App in which you can assign tasks to yourself and others using their email IDs registered with the app. You can also check tasks on specific dates and toggle between active, pending, and done tasks"
+        }
+      ]
+      ,
+    "additionalSkills": [
+        {
+            "name": "Teamwork and Communication",
+            "description": "Excellent teamwork and communication through group projects."
+        },
+        {
+            "name": "Adaptability",
+            "description": "Quick learning and adaptation evident from career transition."
+        },
+        {
+            "name": "Detail Orientation",
+            "description": "Detail-oriented with commitment to high-quality code and design."
+        }
+    ],
+    "languages": [
+        "Fluent in Hindi (written and spoken).",
+        "Fluent in English (written and spoken)."
+    ],
+    "interests": [
+        "Exploring the latest Software development trends and technologies.",
+        "Participating in online coding communities to learn and share.",
+        "Engaging in gym workouts and fitness tracking for a healthy lifestyle.",
+        "Playing cricket and staying active outdoors."
+    ]
+}

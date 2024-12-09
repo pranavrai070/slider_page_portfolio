@@ -1,0 +1,9 @@
+.achievement__title {
+    font-size: 2rem;
+    color: #845EC2;
+    font-weight: 700;
+}
+
+p.achievement__desc {
+    font-size: 1.3rem;
+}

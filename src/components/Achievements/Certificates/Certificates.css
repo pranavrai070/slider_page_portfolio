@@ -1,0 +1,32 @@
+.certificates__container {
+    margin-top: 5rem;
+    padding: 2.4rem;
+}
+
+.certificates__heading {
+    font-size: 3rem;
+    position: relative;
+    color: #845EC2;
+    font-weight: 700;
+    display: inline-block;
+
+}
+
+.certificates__heading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 103%;
+    height: 3px;
+    width: 30%;
+    background-color: #845EC2;
+
+}
+
+.certificates__images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 3rem;
+}

@@ -1,0 +1,24 @@
+.tansitionPage {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    height: 100vh;
+    width: 100vw;
+}
+
+.pageOne {
+    background-color: #0079FF;
+    z-index: 30;
+
+}
+
+.pageTwo {
+    background-color: white;
+    z-index: 20;
+}
+
+.pageThree {
+    background-color: #191825;
+    z-index: 10;
+}

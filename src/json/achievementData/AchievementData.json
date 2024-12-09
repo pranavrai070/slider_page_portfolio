@@ -1,0 +1,69 @@
+{
+    "achievements": [
+        {
+            "id": 1,
+            "title": "Company Web App Development with Multi-Server Architecture",
+            "description": "Developed a web app for my company, featuring 4 servers and ensuring seamless communication between them. Leveraged 2 years of experience in the software industry, utilizing technologies such as Node.js, React.js, Python, and SQL to build and integrate the servers effectively"
+        },
+        {
+            "id": 2,
+            "title": "Technological Diversity",
+            "description": "Mastered a diverse set of frontend and backend technologies, including Node.js, Python, and React, for full-stack development. This expertise extends to mobile app development for both Android and iOS platforms, gained through self-directed learning and practical application"
+        },
+        {
+            "id": 3,
+            "title": "Responsive Design Mastery",
+            "description": "Developed expertise in responsive web design, delivering consistent and user-friendly experiences across diverse devices and screen sizes, all achieved through self-directed learning without formal coursework or guidance."
+        },
+        {
+            "id": 4,
+            "title": "Problem-Solving Skills",
+            "description": "Built strong problem-solving skills by tackling development challenges independently, leveraging online resources, forums, and documentation to find effective solutions."
+        },
+        {
+            "id": 5,
+            "title": "Data Structures and Algorithms (DSA)",
+            "description": "Studied Data Structures and Algorithms, successfully solving over 350 questions on LeetCode, showcasing a strong commitment to mastering algorithmic problem-solving."
+        },
+        {
+            "id": 6,
+            "title": "Version Control Proficiency",
+            "description": "Gained proficiency in using version control systems like Git to manage and track code changes, enabling effective collaboration and maintaining code integrity across personal projects."
+        },
+        {
+            "id": 7,
+            "title": "Portfolio Development",
+            "description": "Built a comprehensive portfolio showcasing a range of projects that highlight full-stack development, including mobile apps for Android and iOS, demonstrating practical skills and growth over time."
+        },
+        {
+            "id": 8,
+            "title": "Community Involvement",
+            "description": "Actively participated in online coding communities, forums, and open-source projects to learn from others, share knowledge, and contribute to the broader developer community."
+        },
+        {
+            "id": 9,
+            "title": "Learning Agility",
+            "description": "Showcased a strong ability to quickly adapt to new tools, libraries, and frameworks without formal education, highlighting a continuous commitment to staying up-to-date with industry trends"
+        },
+        {
+            "id": 10,
+            "title": "User-Centric Design",
+            "description": "Focused on user-centric design principles in project development, aiming to create interfaces that improve user experience and usability, all achieved without formal design education."
+        },
+        {
+            "id": 11,
+            "title": "Effective Time Management",
+            "description": "Developed effective time management skills to balance learning, personal projects, and other commitments, demonstrating the ability to efficiently allocate time and resources."
+        },
+        {
+            "id": 12,
+            "title": "Networking and Collaboration",
+            "description": "Built connections within the developer community by networking, collaborating on open-source projects, and participating in relevant meetups and conferences."
+        },
+        {
+            "id": 13,
+            "title": "Feedback Incorporation",
+            "description": "Proactively sought feedback on personal projects and used it to iteratively enhance code quality, user interfaces, and overall project outcomes."
+        }
+    ]
+}

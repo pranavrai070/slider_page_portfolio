@@ -1,0 +1,100 @@
+.eachProject__container {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+}
+
+
+.eachProject__image {
+    height: 30vh;
+    /* width: 100%; */
+}
+
+.eachProject__image img {
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+    border-radius: 1rem;
+}
+
+.eachProject__projectDetails {
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    padding: 1rem;
+    background-color: #845EC2;
+    border-radius: 1rem;
+    display: inline-block;
+}
+
+
+
+@media only screen and (max-width : 600px) {
+    .eachProject__container {
+        width: 100%;
+
+    }
+
+    .eachProject__image {
+        height: 100%;
+        /* width: 100%; */
+    }
+
+    .eachProject__image img {
+
+        object-fit: contain;
+    }
+
+
+
+}
+
+@media (min-width : 601px) and (max-width : 768px) {
+    .eachProject__container {
+        width: 100%;
+        width: 500px;
+
+    }
+
+    .eachProject__image {
+        height: 100%;
+        /* width: 100%; */
+    }
+
+    .eachProject__image img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .eachProduct__overlay {
+        padding: 2rem;
+    }
+
+    .overlay__projectName {
+        font-size: 3.4rem;
+    }
+
+    .overlay__projectDescription {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width : 769px) and (max-width : 1024px) {
+    .eachProject__container {
+        width: 600px;
+    }
+
+    .eachProduct__overlay {
+        padding: 2rem;
+    }
+
+    .overlay__projectName {
+        font-size: 3.4rem;
+    }
+
+    .overlay__projectDescription {
+        font-size: 1.8rem;
+    }
+}

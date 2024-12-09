@@ -1,0 +1,189 @@
+.contact__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+}
+
+.contact__container .light {
+    color: white;
+}
+
+.contact__banner {
+    width: 70%;
+    background-color: rgba(132, 94, 194, 0.2);
+    margin-top: 3vh;
+    padding: 2.4rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+
+
+}
+
+.contact__heading {
+    font-size: 4rem;
+    color: #845EC2;
+
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+
+}
+
+.contact__heading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 105%;
+    height: 3px;
+    width: 50%;
+    background-color: #845EC2;
+}
+
+.contact__blocks {
+    margin-top: 3rem;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.contact__subHeading {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #845EC2;
+}
+
+.contact__tagline {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.contact__form {
+    text-align: center;
+    width: 100%;
+    margin-top: 3rem;
+
+}
+
+.contact__button {
+    /* display: inline-block; */
+    width: 100%;
+    padding: 1.6rem 2rem;
+    font-size: 2rem;
+    border: 2px solid #845EC2;
+    background-color: rgba(7, 7, 7, 0.9);
+    color: #845EC2;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+
+
+@media only screen and (max-width : 600px) {
+    .contact__container {
+        height: 100%;
+    }
+
+    .contact__banner {
+        width: 90%;
+        padding: 1.6rem;
+
+    }
+
+    .contact__heading {
+        font-size: 2rem;
+    }
+
+    .contact__blocks {
+        gap: 2rem;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .contact__subHeading {
+        margin-top: 3rem;
+    }
+
+    .contact__tagline {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+
+}
+
+@media (min-width : 601px) and (max-width : 768px) {
+
+    .contact__container {
+        height: 100%;
+    }
+
+    .contact__banner {
+        width: 90%;
+        padding: 1.8rem;
+
+    }
+
+    .contact__heading {
+        font-size: 3rem;
+    }
+
+    .contact__blocks {
+        gap: 2rem;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .contact__subHeading {
+        margin-top: 3rem;
+    }
+
+    .contact__tagline {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+
+
+}
+
+@media (min-width : 769px) and (max-width : 1024px) {
+
+    .contact__container {
+        height: 100%;
+    }
+
+    .contact__banner {
+        width: 90%;
+        padding: 1.8rem;
+
+    }
+
+    .contact__heading {
+        font-size: 3rem;
+    }
+
+    .contact__blocks {
+        gap: 2rem;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .contact__subHeading {
+        margin-top: 3rem;
+    }
+
+    .contact__tagline {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+
+}

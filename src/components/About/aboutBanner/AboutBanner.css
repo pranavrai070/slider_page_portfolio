@@ -1,0 +1,208 @@
+.aboutBanner__container {
+    position: relative;
+}
+
+.aboutBanner__intro {
+    /* text-align: center; */
+    /* margin-top: 15%; */
+    padding-left: 20%;
+    font-size: 5rem;
+}
+
+.aboutBanner__abilities {
+    font-size: 10rem;
+    height: max-content;
+    color: #845EC2;
+    /* height: 100%; */
+    position: relative;
+}
+
+.aboutBanner__objective {
+    font-size: 2rem;
+    margin-top: 4rem;
+    /* border: 1px solid red; */
+    position: relative;
+    /* padding-left: 4rem; */
+}
+
+.aboutBanner__objective ul {
+    margin-left: 6rem;
+}
+
+.highlighted__text {
+    color: #845EC2;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+p {
+    margin-top: 5rem;
+    /* background-color: #191825; */
+    position: relative;
+}
+
+p:first-child {
+    margin-top: 0rem;
+}
+
+p:last-child {
+    padding-bottom: 0rem;
+}
+
+.scroll__down {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    cursor: pointer;
+    /* background-color: #845EC2; */
+    /* z-index: -1; */
+    border-radius: 50px;
+    /* padding: 5px; */
+}
+
+.scrollDown__icon {
+    /* z-index: 1; */
+    /* color: white; */
+
+    font-size: 3rem;
+}
+
+@media only screen and (max-width : 600px) {
+    .aboutBanner__intro {
+        padding-left: 13%;
+
+        font-size: 2.2rem;
+        padding-top: 4rem;
+    }
+
+    .aboutBanner__abilities {
+        font-size: 3rem;
+    }
+
+    .aboutBanner__objective {
+        font-size: 1.4rem;
+        margin-top: 2rem;
+        /* border: 1px solid red; */
+        /* padding-left: 4rem; */
+    }
+
+    .aboutBanner__objective ul {
+        margin: 0 2rem;
+    }
+
+    .highlighted__text {
+        font-size: 1.8rem;
+    }
+
+    p {
+        margin-top: 2.5rem;
+    }
+
+    .scroll__down {
+        display: none;
+    }
+
+
+
+
+}
+
+@media (min-width : 601px) and (max-width : 768px) {
+    .aboutBanner__intro {
+        padding-left: 20%;
+
+        font-size: 3rem;
+        padding-top: 2rem;
+    }
+
+    .aboutBanner__abilities {
+        font-size: 4rem;
+    }
+
+    .aboutBanner__objective {
+        font-size: 1.6rem;
+        margin-top: 2.3rem;
+        /* border: 1px solid red; */
+        /* padding-left: 4rem; */
+    }
+
+    .aboutBanner__objective ul {
+        margin: 0 2%;
+    }
+
+    .highlighted__text {
+        font-size: 1.9rem;
+    }
+
+    p {
+        margin-top: 3rem;
+    }
+
+    .scroll__down {
+        display: none;
+    }
+
+
+
+
+}
+
+@media (min-width : 769px) and (max-width : 1024px) {
+    .aboutBanner__intro {
+        padding-left: 20%;
+
+        font-size: 4rem;
+        padding-top: 2rem;
+    }
+
+    .aboutBanner__abilities {
+        font-size: 5rem;
+    }
+
+    .aboutBanner__objective {
+        font-size: 1.8rem;
+        margin-top: 3rem;
+        /* border: 1px solid red; */
+        /* padding-left: 4rem; */
+    }
+
+    .aboutBanner__objective ul {
+        margin: 0 0 0 5%;
+    }
+
+    .highlighted__text {
+        font-size: 2rem;
+    }
+
+    p {
+        margin-top: 3rem;
+    }
+
+    /* .scroll__down {
+        display: none;
+    } */
+
+    .scroll__down {
+        top: 85%;
+        left: 50%;
+        border-radius: 50px;
+
+    }
+
+
+
+}
+
+@media (min-width : 1025px) and (max-width : 1250px) {
+    .aboutBanner__intro {
+        padding-left: 20%;
+
+        font-size: 4.5rem;
+        padding-top: 2rem;
+    }
+
+    .aboutBanner__abilities {
+        font-size: 8rem;
+    }
+
+}

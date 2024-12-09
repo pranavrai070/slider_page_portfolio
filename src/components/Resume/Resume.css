@@ -1,0 +1,314 @@
+.resume__container {
+    background-color: rgba(132, 94, 194, 0.2);
+
+    padding: 2.4rem;
+
+}
+
+
+.resume__eachSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    column-gap: 60px;
+}
+
+.resume__education {
+    grid-column: 1 / span 2;
+}
+
+
+
+.resume__heading {
+    font-size: 3rem;
+    position: relative;
+    color: #845EC2;
+    font-weight: 700;
+    display: inline-block;
+
+}
+
+.resume__heading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 103%;
+    height: 3px;
+    width: 30%;
+    background-color: #845EC2;
+
+}
+
+.resume__download {
+    font-size: 1.6rem;
+    /* color: #845EC2; */
+    color: white;
+    font-weight: 600;
+}
+
+
+
+.resume__subSectionHeading {
+    font-size: 3rem;
+    margin-top: 4rem;
+    font-weight: 700;
+    color: #845EC2;
+    border-bottom: 2px solid #845EC2;
+    display: inline-block;
+}
+
+.resume__eductionSchool {
+    margin-top: 2rem;
+    padding-inline-start: 4rem;
+    position: relative;
+}
+
+.resume__educationMainHeading {
+    margin-right: 10rem;
+
+}
+
+.resume__eachMainHeading {
+    display: inline-block;
+    font-size: 2.3rem;
+    color: #845EC2;
+    font-weight: 600;
+    flex: 0.3;
+    /* border: 1px solid red; */
+}
+
+.resume__educationYear,
+.resume__educationGrade {
+    font-size: 1.6rem;
+    padding: 0.8rem 2rem;
+    background-color: rgba(132, 94, 194, 0.2);
+    display: inline-block;
+}
+
+
+
+
+
+.resume__eachSubHeading {
+    font-size: 1.6rem;
+}
+
+/* .resume__skillHeading {
+    font-size: 1.6rem;
+} */
+
+.resume__techincalSkillContainer,
+.resume__technicalSkills,
+.resume__projects {
+    margin-top: 2rem;
+}
+
+
+
+
+
+.resume__technicalSkillList {
+    position: relative;
+    padding-inline-start: 4rem;
+    margin-top: 1rem;
+
+
+}
+
+.resume__technicalSkillList::after,
+.resume__eductionSchool::after {
+    content: " ";
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: #845EC2;
+    border-radius: 50%;
+}
+
+.resume__technicalSkillList::before,
+.resume__eductionSchool::before {
+    content: " ";
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    height: 100%;
+    width: 2px;
+    background-color: white;
+}
+
+.resume__languagesList:last-child:before,
+.resume__languagesList:last-child::before {
+    height: 0%;
+}
+
+
+
+@media only screen and (max-width:600px) {
+    .resume__container {
+
+        padding: 2rem;
+
+    }
+
+    .resume__eachSection {
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0px;
+
+    }
+
+    .resume__education {
+        grid-column: 1 /1;
+    }
+
+    .resume__heading {
+        font-size: 2rem;
+    }
+
+    .resume__heading::after {
+        width: 20%;
+    }
+
+    .resume__download {
+        font-size: 1.3rem;
+        /* color: #845EC2; */
+        font-weight: 500;
+    }
+
+    .resume__subSectionHeading {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .resume__eductionSchool,
+    .resume__technicalSkillList {
+        padding-inline-start: 2.4rem;
+    }
+
+
+    .resume__educationMainHeading {
+        margin-right: 7rem;
+
+    }
+
+    .resume__eachMainHeading {
+
+        font-size: 1.7rem;
+    }
+
+    .resume__educationYear,
+    .resume__educationGrade {
+        font-size: 1.2rem;
+        padding: 0.4rem 1rem;
+    }
+
+    .resume__eachSubHeading {
+        font-size: 1.2rem;
+    }
+
+    .resume__technicalSkillList::after,
+    .resume__eductionSchool::after {
+        top: 5px;
+        left: 0px;
+        height: 12px;
+        width: 12px;
+        /* background-color: transparent; */
+    }
+
+    .resume__technicalSkillList::before,
+    .resume__eductionSchool::before {
+        top: 16px;
+        left: 5px;
+        height: 110%;
+        width: 2px;
+    }
+
+
+
+}
+
+
+
+@media (min-width: 601px) and (max-width:768px) {
+    .resume__container {
+
+        padding: 2.2rem;
+
+    }
+
+    .resume__eachSection {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3rem;
+
+    }
+
+    .resume__education {
+        grid-column: 1 / span 2;
+    }
+
+    .resume__heading {
+        font-size: 2.5rem;
+    }
+
+    .resume__heading::after {
+        width: 25%;
+    }
+
+    .resume__download {
+        font-size: 1.4rem;
+        /* color: #845EC2; */
+        font-weight: 500;
+    }
+
+    .resume__subSectionHeading {
+        font-size: 2.4rem;
+        margin-top: 3rem;
+    }
+
+    .resume__eductionSchool,
+    .resume__technicalSkillList {
+        padding-inline-start: 2.6rem;
+    }
+
+
+    .resume__educationMainHeading {
+        margin-right: 9rem;
+
+    }
+
+    .resume__eachMainHeading {
+
+        font-size: 2rem;
+    }
+
+    .resume__educationYear,
+    .resume__educationGrade {
+        font-size: 1.2rem;
+        padding: 0.4rem 1rem;
+    }
+
+    .resume__eachSubHeading {
+        font-size: 1.4rem;
+    }
+
+    .resume__technicalSkillList::after,
+    .resume__eductionSchool::after {
+        top: 5px;
+        left: 0px;
+        height: 15px;
+        width: 15px;
+        /* background-color: transparent; */
+    }
+
+    .resume__technicalSkillList::before,
+    .resume__eductionSchool::before {
+        top: 20px;
+        left: 7px;
+        height: 105%;
+        width: 2px;
+    }
+
+
+
+}

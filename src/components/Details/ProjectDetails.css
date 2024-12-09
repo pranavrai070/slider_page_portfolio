@@ -1,0 +1,135 @@
+.projectDetails__mainHeading {
+    margin-top: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.projectDetails__container {
+    overflow: hidden;
+    min-height: 90vh;
+    height: 100%;
+
+}
+
+.projectDetails__container .light {
+    background-color: #845EC2;
+    color: #ffff;
+}
+
+.projectDetails__loadingIcon {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectDetails__content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15rem;
+}
+
+
+
+.projectDetails__left {
+    flex: 0.4;
+    border: transparent;
+}
+
+.projectDetails__left .projectDetails__image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.projectDetails__right {
+    /* text-align: center; */
+    flex: 0.4;
+}
+
+.projectDetails__right h1.projectDetails__heading {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 4rem;
+    color: #845EC2;
+    text-transform: uppercase;
+    border-bottom: 4px solid #845EC2;
+
+}
+
+.projectDetails__right .projectDetails__description {
+    font-size: 2rem;
+    margin-top: 1rem;
+    letter-spacing: 1.6px;
+}
+
+
+
+.projectDetails__Live {
+    font-size: 2rem;
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: #ffff;
+    color: #845EC2;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+
+@media only screen and (max-width : 600px) {
+
+    .projectDetails__content {
+        padding: 2rem;
+        flex-direction: column;
+    }
+
+
+    .projectDetails__right h1.projectDetails__heading {
+        font-size: 3rem;
+        border-bottom: 3px solid #845EC2;
+
+    }
+
+    .projectDetails__right .projectDetails__description {
+        font-size: 1.6rem;
+    }
+
+    .projectDetails__Live {
+        font-size: 1.6rem;
+        margin-top: 1.5rem;
+        padding: 0.5rem 1.5rem;
+        font-weight: 700;
+        border-radius: 1rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width : 768px) {
+
+    .projectDetails__content {
+        padding: 2rem;
+        flex-direction: column;
+    }
+
+    .projectDetails__container {
+        /* overflow: hidden; */
+        height: 100%;
+    }
+
+    .projectDetails__right h1.projectDetails__heading {
+        font-size: 3rem;
+        border-bottom: 3px solid #845EC2;
+
+    }
+
+    .projectDetails__right .projectDetails__description {
+        font-size: 1.6rem;
+    }
+
+    .projectDetails__Live {
+        font-size: 1.6rem;
+        margin-top: 1.5rem;
+        padding: 0.5rem 1.5rem;
+        font-weight: 700;
+        border-radius: 1rem;
+    }
+}
